@@ -22,7 +22,7 @@ Add the Puma gem to your Gemfile as below:
 
 In your Procfile:
 
-web: bundle exec puma start -p $PORT
+web: bundle exec puma -p $PORT
 
 That is all you need to do, now simply commit and push!
 
